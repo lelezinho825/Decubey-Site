@@ -1,0 +1,91 @@
+:root {
+    --padding: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+
+.body {
+    background-color: #1a1a1a;
+    color: #e6e6e6;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+}
+
+.header {
+    background-color: #e6e6e6;
+    gap: 30px;
+    margin: 20px;
+    color: #1a1a1a;
+    padding: 10px;
+}
+
+.header img, h1, div {
+    gap: 30px;
+    margin: 10px;
+}
+
+.header div h2, p {
+    gap: 30px;
+    margin: 10px;
+}
+
+.zideral {
+    background-color: #e6e6e6;
+    gap: 30px;
+    margin: 20px;
+    color: #1a1a1a;
+    padding: 10px;
+}
+
+.internett {
+    background-color: #e6e6e6;
+    gap: 30px;
+    margin: 20px;
+    color: #1a1a1a;
+    padding: 10px;
+}
+
+.canalOne {
+    background-color: #e6e6e6;
+    gap: 30px;
+    margin: 20px;
+    color: #1a1a1a;
+    padding: 10px;
+}
+
+.canalTwo {
+    background-color: #e6e6e6;
+    gap: 30px;
+    margin: 20px;
+    color: #1a1a1a;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #e6e6e6;
+    gap: 30px;
+    margin: 20px;
+    color: #1a1a1a;
+    padding: 10px;
+}
+
+.footer nav {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
